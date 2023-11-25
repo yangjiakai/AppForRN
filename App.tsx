@@ -76,8 +76,10 @@ function App(): JSX.Element {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.tsx</Text> to change this
+          <Text className="mt-8 px-2">Hello, NativeWind with Tailwind!</Text>
+          <Text className="text-red-500 font-bold">主轴方向</Text>
+          <Section title="Step One1">
+            Edit2 <Text style={styles.highlight}>App.tsx</Text> to change this
             screen and then come back to see your edits.
           </Section>
           <Section title="See Your Changes">
